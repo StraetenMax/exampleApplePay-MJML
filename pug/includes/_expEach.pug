@@ -1,0 +1,22 @@
+//- Explication
+-
+    const contentsList =[
+        {
+            'text':'1. Offer valid through 7/13/2023 at 11:59 p.m. PT. Offer available only to new HotelTonight users. Additional terms apply.'
+        },
+        {
+            'text':'2. Offer valid through 7/13/2023 at 11:59 p.m. PT. Offer available only to new Jimmy John\'s Freaky Fast Rewards® members. Additional terms apply.'
+        },
+        {
+            'text':'3. Offer valid through 7/13/2023 at 11:59 p.m. PT. Offer available only to new ParkWhiz users. Additional terms apply.'
+        },
+        {
+            'text':'4. Offer valid through 7/13/2023 at 11:59 p.m. PT. Offer available only to new SONIC app users. Additional terms apply.'
+        }
+    ]
+
+mj-section(background-color="#f5f5f7" padding="40px 25px")
+    each content in contentsList
+        mj-column(width="100%")
+            mj-text(font-size="14px" color='#86868b' line-height="140%")= content.text
+

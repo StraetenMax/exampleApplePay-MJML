@@ -9,7 +9,7 @@ mjml
             <meta name="format-detection" content="date=no"/>
             <meta name="format-detection" content="address=no"/>
             <meta name="format-detection" content="email=no"/>
-        mj-font(name="Poppins" href="https://fonts.googleapis.com/css?family=Poppins")
+        mj-font(name="Poppins" href="https://fonts.googleapis.com/css?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap")
         mj-attributes
             mj-all(font-family='Poppins, Helvetica, Arial, sans-serif')/
             mj-image(border='none')/
@@ -25,5 +25,5 @@ mjml
         block produits mixin
             include ../includes/_produitMixin
         //- explication
-        block explication
-            include ../includes/_exp
+        block explication boucle each
+            include ../includes/_expEach
