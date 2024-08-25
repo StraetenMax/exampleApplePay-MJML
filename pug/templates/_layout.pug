@@ -1,0 +1,40 @@
+mjml
+    //- Head
+    mj-head
+        mj-title Apple Pay Perks
+        mj-raw.
+            <meta name="color-scheme" content="light"/>
+            <meta name="supported-color-schemes" content="light"/>
+            <meta name="format-detection" content="telephone=no"/>
+            <meta name="format-detection" content="date=no"/>
+            <meta name="format-detection" content="address=no"/>
+            <meta name="format-detection" content="email=no"/>
+        mj-font(name="SF Pro Display" href="https://fonts.googleapis.com/css?family=SF+Pro+Display")
+        mj-attributes
+            mj-all(font-family='SF Pro Display, Helvetica, Arial, sans-serif')/
+            mj-image(border='none')/
+        mj-breakpoint(width='480px')
+        mj-style.
+            .link-button{
+                background-color: #FFFFFF;
+                border-radius: 18px;
+                color: #0066CC;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 36px;
+                text-decoration: none;
+                padding-top: 15px;
+            }
+    //- Body
+    mj-body(background-color="#e6e6e6")       
+        //- content
+        block content
+        //- map
+            block map
+            include ../includes/_map
+        //- recommended
+            block recommended
+            include ../includes/_recommended
+        //- footer
+            block footer
+            include ../includes/_footer

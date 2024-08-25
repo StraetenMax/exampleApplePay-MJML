@@ -1,0 +1,56 @@
+
+<mjml>
+  <mj-head>
+    <mj-title>Apple Pay Perks</mj-title>
+    <mj-raw>
+      <meta name="color-scheme" content="light"/>
+      <meta name="supported-color-schemes" content="light"/>
+      <meta name="format-detection" content="telephone=no"/>
+      <meta name="format-detection" content="date=no"/>
+      <meta name="format-detection" content="address=no"/>
+      <meta name="format-detection" content="email=no"/>
+    </mj-raw>
+    <mj-font name="SF Pro Display" href="https://fonts.googleapis.com/css?family=SF+Pro+Display"></mj-font>
+    <mj-attributes>
+      <mj-all font-family="SF Pro Display, Helvetica, Arial, sans-serif"/>
+      <mj-image border="none"/>
+    </mj-attributes>
+    <mj-breakpoint width="480px"></mj-breakpoint>
+    <mj-style>
+      .link-button{
+          background-color: #FFFFFF;
+          border-radius: 18px;
+          color: #0066CC;
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 36px;
+          text-decoration: none;
+          padding-top: 15px;
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#e6e6e6">      
+    <mj-section background-color="#ffffff" padding="20px 0 0 0">
+      <mj-column>
+        <mj-image width="120px" align="left" src="https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/29/3d/34/293d34e9-bfa3-7bfc-28d2-0c1b807aa403/mza_5636553478385258687.png/400x56bb-100.png" Alt="Apple Pay Perks"></mj-image>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#FFFFFF" padding="0">
+      <mj-column>
+        <mj-image src="https://is1-ssl.mzstatic.com/image/thumb/Features122/v4/cf/dc/45/cfdc4592-de00-042f-71c0-3382417c22cd/mza_15333454782619296284.jpg/1480x800fe-90.jpg" alt="Road trip illustration">   </mj-image>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" padding="40px 25px">
+      <mj-column>
+        <mj-text font-size="32px" font-weight="700" align="center" color="#1d1d1f" line-height="120%">
+          <div>Road-Trip and save.</div>
+          <div>With Apple Pay.</div>
+        </mj-text>
+        <mj-text font-size="17px" color="#86868b" align="center" line-height="150%" padding-top="20px">
+          <div>Use Apple Pay for exclusive offers on food, hotels, parking, and more.</div>
+          <div>Now through July 13.</div>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
